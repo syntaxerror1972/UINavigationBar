@@ -44,3 +44,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+//Screen Dimensions
+func getWindowWidth() -> CGFloat {
+    return  UIScreen.main.bounds.size.width
+}
+
+func getWindowHeight() -> CGFloat {
+    return  UIScreen.main.bounds.size.height
+}
+
